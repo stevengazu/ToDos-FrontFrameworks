@@ -8,8 +8,7 @@ export function ToDoList() {
     const [editingIndex, setEditingIndex] = useState(null); // Almacena el índice de la tarea que se está editando
     const [editingText, setEditingText] = useState(''); // Almacena el texto de la tarea que se está editando
     const [isStruck, setIsStruck] = useState([]); // Almacena el estado de tachado de cada tarea
-    const [showCheckbox, setShowCheckbox] = useState(false); // Almacena el estado de si mostrar o no las casillas de verificación (no se usa en el código actual)
-
+   
     // Función para agregar una nueva tarea
     const addTask = () => {
         if (inputValue.trim() !== '') {
