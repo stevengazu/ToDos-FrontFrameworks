@@ -1,0 +1,105 @@
+
+.TextNewTask {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  h2{
+    margin-top: 5%;
+    padding-top: 8%;
+  }
+.CheckboxList{
+    padding-left: 10%;
+    display: inline-flex;
+
+}
+.menu {
+    display: inline;
+    justify-items: center;
+    gap: 10px;
+}
+.CheckboxList {
+    margin-right: 10px;
+}
+.TextNewTask {
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+  button {
+    padding: 10px;
+    margin: 10px 0;
+    margin-left: 15px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    border-radius: 5%;
+  }
+  li {
+    background: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    padding-right: 20%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    color: black;
+    border-radius: 5%; 
+    align-items: center;
+    position: relative;
+ 
+}
+li button {
+    background: #dc3545;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background: #c82333;
+}
+li p {
+    flex-grow: 1;
+    margin: 0;
+    padding: 0 10px;
+    text-align: left;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    max-width: calc(100%-60px);
+}
+li i {
+    cursor: pointer;
+    color: #dc3545;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+  .btn {
+    background: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: #d32f2f;
+  }
+  
+  li i:hover {
+    background: #f8d7da;
+}
+li i.disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
