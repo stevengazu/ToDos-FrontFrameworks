@@ -6,7 +6,6 @@ export function App() {
     <main  className="App">
       <div className="todo-container">
           <ToDoList />
-          
       </div>
     </main>
   );
